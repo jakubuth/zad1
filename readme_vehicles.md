@@ -4,7 +4,7 @@ Twoim zadaniem jest utworzenie struktury klas reprezentujących różne typy poj
 
 ## Wymagania
 
-### 1. Utwórz pakiet `pl.example.vehicles`.
+### 1. Utwórz pakiet `pl.example.simplevehicles`.
 
 ### 2. Utwórz klasę abstrakcyjną `Vehicle`:
 - Pole `String name` przechowujące nazwę pojazdu.
@@ -23,7 +23,7 @@ Twoim zadaniem jest utworzenie struktury klas reprezentujących różne typy poj
     - Konstruktor przyjmujący parametr `name`, wywołujący konstruktor klasy `Vehicle`.
     - Nadpisaną metodę `getMaxSpeed()` zwracającą wartość 50.
 
-### 4. Utwórz klasę testową `VehiclesTest` w pakiecie `pl.example.vehicles`:
+### 4. Utwórz klasę testową `VehiclesTest` w pakiecie `pl.example.simplevehicles`:
 - Przetestuj poprawność działania klas `Car` i `Bike`, w szczególności:
     - Czy `Car` zwraca maksymalną prędkość 200.
     - Czy `Bike` zwraca maksymalną prędkość 50.
